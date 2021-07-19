@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url(img/dados-coloridos.jpg);
+    background-size: 100%;
+    color: red;
+}
+
+button {
+    background-color: rgb(0, 81, 128);
+    Width: 40%;
+    height: 40%;
+    padding: 5%;
+    color: yellow;
+    border-radius: 8px;
+    border-color: white;
+    margin: 30px;
+}
+
+h1 {
+    background-color: black;
+    margin: 1%;
+    padding: 2%;
+}
+
+p {
+    line-height: 1%;
+}
+
+div {
+    margin-top: 1%;
+    background-color: black;
+    padding: 3%;
+}
+
+@media (min-width: 1024px) {
+    button {
+        width: 20%;
+        height: 20%;
+        padding: 2%;
+        font-size: 150%;
+    }
+}
